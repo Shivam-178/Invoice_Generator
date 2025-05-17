@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Professional Invoice Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Invoice Generator</h1>
+
+    <form id="invoice-form">
+      <input type="text" id="companyName" placeholder="Your Company Name" required>
+      <input type="text" id="clientName" placeholder="Client Name" required>
+
+      <div id="items">
+        <div class="item">
+          <input type="text" class="itemName" placeholder="Item Name" required>
+          <input type="number" class="itemQty" placeholder="Quantity" required>
+          <input type="number" class="itemPrice" placeholder="Price" required>
+        </div>
+      </div>
+
+      <button type="button" id="add-item">+ Add Item</button>
+      <br><br>
+      <button type="button" id="generate">Generate Invoice</button>
+    </form>
+
+    <div id="invoice-preview" style="display:none;">
+      <!-- Invoice will be generated here -->
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
