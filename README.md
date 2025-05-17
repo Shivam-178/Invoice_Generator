@@ -17,4 +17,5 @@ A simple Invoice Generator for creating professional invoices. Ideal for freelan
 
     - Frontend: HTML, CSS, JavaScript
     - PDF Export: html2pdf.js
-    - Styling: CSS 
+    - Styling: CSS
+ 
