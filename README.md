@@ -1,10 +1,8 @@
 # Invoice_Generator
 
-"This is First Repositery"
-
 A simple Invoice Generator for creating professional invoices. Ideal for freelancers, small businesses, and startups.
 
-🚀 Features
+🚀 Features:-
 
     - Dynamic invoice creation with company and client details
     - Add unlimited line items with automatic total calculation
@@ -13,7 +11,7 @@ A simple Invoice Generator for creating professional invoices. Ideal for freelan
     - Customizable branding with company logo support
 
 
-🛠️ Technologies Used
+🛠️ Technologies Used:-
 
     - Frontend: HTML, CSS, JavaScript
     - PDF Export: html2pdf.js
